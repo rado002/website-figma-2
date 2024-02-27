@@ -1,0 +1,16 @@
+$primary: #FFD1CF;
+$secondary: #DAF7A6;
+
+h1 {
+    color: $secondary;
+}
+
+header {
+    p{
+        color: $primary;
+
+        &.warning {
+            color: red;
+        }
+    }
+}

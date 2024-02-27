@@ -4,5 +4,12 @@
   },
   "dependencies": {
     "servor": "^4.0.2"
-  }
+  },
+  "name": "website-figma-2",
+  "description": "[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/rado002/website-figma-2)",
+  "version": "1.0.0",
+  "main": "script.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

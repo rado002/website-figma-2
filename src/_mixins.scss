@@ -1,0 +1,20 @@
+$background: #367046;
+
+@mixin square {
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+    background-color: $background;
+}
+
+@mixin customRoundedSquare($size, $radius: 10px) {
+    margin: 100px;
+    background-color: $background;
+    width: $size;
+    height: $size;
+
+    @if $radius != 0 {
+        border-radius: $radius;
+    }
+}
+

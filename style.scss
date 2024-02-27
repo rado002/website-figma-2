@@ -1,0 +1,13 @@
+// to avoid writing all the word 'partial' later, just p
+
+@use 'src/mixins';
+@use 'src/extend';
+
+
+.square {
+    @include mixins.square;
+}
+
+.custom-square {
+    @include mixins.customRoundedSquare(300px, 20px);
+}

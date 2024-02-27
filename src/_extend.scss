@@ -1,0 +1,40 @@
+$success: #28a745;
+$error: #dc3545;
+
+// .alert {
+//     width: 200px;
+//     height: 50px;
+//     padding: 10px;
+//     color: white;
+//     text-align: center;
+
+
+
+//     &--success {
+//         background-color: $success;
+//     }
+
+//     &--error {
+//         background-color: $error;
+//     }
+// }
+
+.alert {
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+
+
+
+    &--success {
+        @extend .alert;
+        background-color: $success;
+    }
+
+    &--error {
+        @extend .alert;
+        background-color: $error;
+    }
+}

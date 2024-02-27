@@ -1,0 +1,30 @@
+.alert, .alert--error, .alert--success {
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+.alert--success {
+  background-color: #28a745;
+}
+.alert--error {
+  background-color: #dc3545;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  margin: 100px;
+  background-color: #367046;
+}
+
+.custom-square {
+  margin: 100px;
+  background-color: #367046;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
