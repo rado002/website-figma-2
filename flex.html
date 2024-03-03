@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <nav>
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="page2.html">Other page</a>
+        <a href="flex.html">flex</a>
+        <a href="next.html">next</a>
+      </nav>
+
+    <div class="flex-container">
+      <div class="flex-item_2">
+        div a
+        <div class="sub-a">div sub-a</div>
+        <p>i'm an element of sub-a</p>
+      </div>
+
+      <div class="flex-item_2">
+        div b
+        <div class="sub-b">div sub-b</div>
+        <p>i'm an element of sub-b</p>
+      </div>
+      <div class="flex-item_2">
+        div c
+        <div class="sub-c">div sub-c</div>
+      </div>
+      <div class="flex-item_2">div d</div>
+
+      <div class="flex-container_2">
+        <div class="flex-item_3 code_html">
+          <pre>
+                    <code>
+                    &lt;div class="flex-container"&gt;
+                    
+                        &lt;div class="flex-item_2"&gt;div a
+                            &lt;div class="sub-a"&gt;div sub-a&lt;/div&gt;
+                            &lt;p&gt; i'm an element of sub-a&lt;/p&gt;
+                        &lt;/div&gt;
+                
+                        &lt;div class="flex-item_2"&gt;div b
+                            &lt;div class="sub-b"&gt;div sub-b&lt;/div&gt;
+                            &lt;p&gt; i'm an element of sub-b&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class="flex-item_2"&gt;div c
+                            &lt;div class="sub-c"&gt;div sub-c&lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="flex-item_2"&gt;div d
+                        &lt;/div&gt;
+                    
+                    &lt;div class="flex-container"&gt;
+                        &lt;div&gt;
+                            &lt;p&gt;flex-container&lt;/p&gt;
+                            &lt;code class="flex-item_3"&gt;
+                            
+                            &lt;...&gt;                           
+                            &lt;/code&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    </code>
+                </pre>
+        </div>
+
+        <div class="flex-item_3 code_css">
+          <pre>.flex-container { <br>
+                    display: flex; <br>
+                    background-color: aqua; <br>
+                } 
+                </pre>
+        </div>
+      </div>
+    </div>
+
+    <p>flex-container</p>
+  </body>
+</html>

@@ -1,9 +1,9 @@
-html {
-  background-color: cornflowerblue;
-}
-
 * {
   box-sizing: border-box;
+}
+
+html {
+  background-color: cornflowerblue;
 }
 
 body {
@@ -35,7 +35,7 @@ nav a {
   color: #555;
 }
 
-nav a[aria-current='page'] {
+nav a[aria-current="page"] {
   color: #000;
   background-color: #d4d4d4;
 }
@@ -47,4 +47,74 @@ main {
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.flex-container {
+  display: flex;
+  /* width: 100px; */
+  background-color: aqua;
+}
+
+.flex-container_2 {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: aqua;
+}
+
+.flex-item {
+  flex-basis: 500px; /* there's no space for it */
+}
+
+.flex-item_2 {
+  background-color: beige;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.flex-item_3 {
+}
+
+.sub-a {
+  background-color: lightgreen;
+  margin: 10px;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.sub-b {
+  background-color: lightblue;
+  margin: 10px;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.sub-c {
+  background-color: lightcoral;
+  margin: 10px;
+  padding: 20px;
+  font-size: 18px;
+}
+
+pre {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-left: 3px solid #f36d33;
+  color: #666;
+  page-break-inside: avoid;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em 1.5em;
+  display: block;
+  word-wrap: break-word;
 }

@@ -1,0 +1,24 @@
+// to avoid writing all the word 'partial' later, just p
+
+// @use 'src/mixins';
+// @use 'src/extend';
+@use 'base/variables';
+@use 'base/colors';
+@use 'base/mixins';
+
+
+
+h1 {
+    color: $white;
+    
+    @include small-up {
+        color: $black;
+    }
+
+    @include medium-up{
+        color: $red;
+    }
+}
+
+
+
