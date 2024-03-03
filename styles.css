@@ -10,7 +10,7 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: white;
+  background-color: #eee;
 }
 
 nav {
@@ -40,8 +40,13 @@ nav a[aria-current="page"] {
   background-color: #d4d4d4;
 }
 
+header {
+  background-color: blanchedalmond;
+}
+
 main {
   padding: 1rem;
+  background-color: antiquewhite;
 }
 
 h1 {
@@ -55,20 +60,28 @@ p {
 
 .flex-container {
   display: flex;
-  /* width: 100px; */
-  background-color: aqua;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: lightgray;
 }
 
 .flex-container_2 {
   display: flex;
-  /* flex-wrap: wrap; */
-  justify-content: space-between;
-  align-items: stretch;
-  background-color: aqua;
+  flex-direction: row;
+  background-color: lightseagreen;
+}
+
+.flex-container_3 {
+  display: flex;
+  flex-direction: column;
+
+  background-color: lightgreen;
+  justify-content: center;
 }
 
 .flex-item {
-  flex-basis: 500px; /* there's no space for it */
+  flex-basis: 200px;
 }
 
 .flex-item_2 {
@@ -79,6 +92,14 @@ p {
 }
 
 .flex-item_3 {
+  background-color: darkblue;
+  margin: 10px;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+  /* height: auto; */
 }
 
 .sub-a {
@@ -105,7 +126,7 @@ p {
 pre {
   background-color: #f4f4f4;
   border: 1px solid #ddd;
-  border-left: 3px solid #f36d33;
+  border-left: 3px solid #fff;
   color: #666;
   page-break-inside: avoid;
   font-family: monospace;

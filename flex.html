@@ -9,33 +9,34 @@
 
   <body>
     <nav>
-        <a href="index.html" aria-current="page">Home</a>
-        <a href="page2.html">Other page</a>
-        <a href="flex.html">flex</a>
-        <a href="next.html">next</a>
-      </nav>
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="page2.html">Other page</a>
+      <a href="flex.html">flex</a>
+      <a href="next.html">next</a>
+    </nav>
 
-    <div class="flex-container">
-      <div class="flex-item_2">
-        div a
-        <div class="sub-a">div sub-a</div>
-        <p>i'm an element of sub-a</p>
-      </div>
-
-      <div class="flex-item_2">
-        div b
-        <div class="sub-b">div sub-b</div>
-        <p>i'm an element of sub-b</p>
-      </div>
-      <div class="flex-item_2">
-        div c
-        <div class="sub-c">div sub-c</div>
-      </div>
-      <div class="flex-item_2">div d</div>
-
+    <!-- <div class="flex-container"> -->
       <div class="flex-container_2">
-        <div class="flex-item_3 code_html">
-          <pre>
+        <div class="flex-item_2">
+          div a
+          <div class="sub-a">div sub-a</div>
+          <p>i'm an element of sub-a</p>
+        </div>
+
+        <div class="flex-item_2">
+          div b
+          <div class="sub-b">div sub-b</div>
+          <p>i'm an element of sub-b</p>
+        </div>
+        <div class="flex-item_2">
+          div c
+          <div class="sub-c">div sub-c</div>
+        </div>
+        <div class="flex-item_2">div d</div>
+
+        <div class="flex-container_2">
+          <div class="flex-item_2 code_html">
+            <pre>
                     <code>
                     &lt;div class="flex-container"&gt;
                     
@@ -65,18 +66,91 @@
                     &lt;/div&gt;
                     </code>
                 </pre>
-        </div>
+          </div>
 
-        <div class="flex-item_3 code_css">
-          <pre>.flex-container { <br>
+          <div class="flex-item_2 code_css">
+            <pre>.flex-container { <br>
                     display: flex; <br>
                     background-color: aqua; <br>
                 } 
                 </pre>
+          </div>
+        </div>
+      </div>
+
+      <p>flex-container</p>
+
+
+      <hr />
+      <br />
+
+
+      <div class="flex-container_2">
+        <div class="flex-container_3">
+          <div class="flex-item_3">
+            <img src="img/cities_1.webp" alt="" />
+          </div>
+          <div class="flex-item_3">
+            <img src="img/cities_2.webp" alt="" />
+          </div>
+          <div class="flex-item_3">
+            <img src="img/cities_3.webp" alt="" />
+          </div>
+        </div>
+
+        <div class="flex-containter_2">
+          <div class="flex-item_2 code_html">
+            <pre>
+                    <code>
+                      &lt;div class="flex-container_2"&gt;
+                      &lt;div class="flex-container_3"&gt;
+                        &lt;div class="flex-item_3"&gt;
+                          &lt;img src="img/cities_1.webp" alt="" /&gt;
+                        &lt;/div&gt;
+                        &lt;div class="flex-item_3"&gt;
+                          &lt;img src="img/cities_2.webp" alt="" /&gt;
+                        &lt;/div&gt;
+                        &lt;div class="flex-item_3"&gt;
+                          &lt;img src="img/cities_3.webp" alt="" /&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                  
+                      &lt;div class="flex-containter_2"&gt;
+                        &lt;div class="flex-item_2 code_html"&gt;
+                          &lt;pre&gt;
+                                  &lt;code&gt;
+                  
+                    </code>
+                </pre>
+          </div>
+
+          <div class="flex-item_2 code_css">
+            <pre>
+.flex-container_3 {
+          display: flex;
+          flex-direction: column;
+          
+          background-color: lightgreen;
+          justify-content: center;
+        }
+        </pre
+            >
+
+            <pre>
+          .flex-item_3 {
+            background-color: darkblue;
+            margin: 10px;
+            padding: 10px;
+          }
+        </pre
+            >
+          </div>
         </div>
       </div>
     </div>
+    <p>flex-direction: column;</p>
 
-    <p>flex-container</p>
+    <br />
+    <hr />
   </body>
 </html>
