@@ -3,6 +3,7 @@
     "start": "servor --reload"
   },
   "dependencies": {
+    "postcss": "^8.1.0",
     "servor": "^4.0.2"
   },
   "name": "website-figma-2",
@@ -11,5 +12,18 @@
   "main": "script.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "browser-sync": "^3.0.2",
+    "cssnano": "^6.0.5",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^9.0.0",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.1.0",
+    "prettier": "^3.2.5"
+  }
 }

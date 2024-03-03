@@ -1,0 +1,32 @@
+// to avoid writing all the word 'partial' later, just p
+
+@use 'src/mixins';
+@use 'src/extend';
+// @use 'src/variables';
+// @use 'base/colors';
+@use 'base/mixins';
+
+// .square {
+//     @include mixins.square;
+// }
+
+// .custom-square {
+//     @include mixins.customRoundedSquare(300px, 20px);
+// }
+
+h1 {
+    color: $white;
+    
+    @include small-up {
+        color: $black;
+    }
+
+    @include medium-up{
+        color: $red;
+    }
+
+
+}
+
+
+
