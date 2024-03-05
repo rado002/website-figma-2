@@ -1,19 +1,4 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>flex</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-
-  <body>
-    <nav>
-      <a href="index.html" aria-current="page">Home</a>
-      <a href="page2.html">Other page</a>
-      <a href="flex.html">flex</a>
-      <a href="next.html">next</a>
-    </nav>
+<?php include 'menu.php'; ?>
 
     <!-- <div class="flex-container"> -->
       <div class="flex-container_2">
@@ -154,3 +139,5 @@
     <hr />
   </body>
 </html>
+
+
