@@ -80,6 +80,14 @@ p {
   justify-content: center;
 }
 
+.flex-container_4 {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  /* flex-wrap: wrap; */
+  background-color: lightcoral;
+  /* justify-content: center; */
+}
+
 .flex-item {
   flex-basis: 200px;
 }
@@ -95,6 +103,11 @@ p {
   background-color: darkblue;
   margin: 10px;
   padding: 10px;
+}
+
+.flex-item_4 {
+  width: 180px;
+  margin: 10px;
 }
 
 img {
